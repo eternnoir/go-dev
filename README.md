@@ -11,12 +11,12 @@ docker run -t -i -v /local/gopath:/go eternnoir/go-dev /bin/bash
 * GOPATH /go
 
 ## vim 
-* vim-go [Link](https://github.com/fatih/vim-go)
+i* vim-go [Link](https://github.com/fatih/vim-go)
 * NerdTree
 * YCM
 * Conque-Shell [Link](https://github.com/vim-scripts/Conque-Shell.git)
 * vim-javascript [Link](https://github.com/pangloss/vim-javascript.git)
-*
+
 ## Other
 * git
 * tmux
