@@ -23,6 +23,10 @@ set wak=no          " disable GUI alt menu
 set noswapfile
 set list listchars=tab:»·,trail:·
 
+" FileType Aliase
+au BufNewFile,BufRead *.tmpl set filetype=html
+
+
 " NerdTree
 autocmd StdinReadPre * let s:std_in=1
 autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
