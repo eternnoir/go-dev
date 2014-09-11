@@ -35,7 +35,11 @@ RUN cd /root/.vim/bundle/YouCompleteMe; git submodule update --init --recursive;
 # Install vim-javascript
 RUN git clone https://github.com/pangloss/vim-javascript.git /root/.vim/bundle/vim-javascript
 
-# Add confit file
+# Install Conque-Shell
+RUN git clone https://github.com/vim-scripts/Conque-Shell.git  /root/.vim/bundle/Conque-Shell
+
+# Add config file
 ADD vimrc /root/.vimrc
 ADD tmux.conf /root/.tmux.conf
+
 
