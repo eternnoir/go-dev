@@ -41,5 +41,4 @@ RUN git clone --depth=1  https://github.com/eternnoir/Conque-Shell.git  /root/.v
 # Add config file
 ADD vimrc /root/.vimrc
 ADD tmux.conf /root/.tmux.conf
-RUN git config core.fileMode false
 
