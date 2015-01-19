@@ -12,7 +12,7 @@ wait for vim-go install
 ```
 
 ## Go
-* Version 1.3.1
+* Version 1.4.1
 * GOPATH /go
 
 ## vim 
