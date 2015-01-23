@@ -9,6 +9,7 @@ MAINTAINER Frank Wang <eternnoir@gmail.com>
 RUN apt-get update && apt-get install -y software-properties-common
 # Install develop use tool
 RUN apt-get -y install vim git curl mercurial build-essential cmake python-dev ctags tmux
+RUN apt-get clean
 ENV HOME /root
 WORKDIR /root
 # Install tpope
