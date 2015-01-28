@@ -9,6 +9,7 @@ set encoding=utf-8
 set tenc=utf8
 set fileencodings=utf-8,chinese,latin-1
 set fileencoding=utf-8
+set mouse=a
 
 " General Settings
 
