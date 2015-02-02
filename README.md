@@ -21,6 +21,7 @@ wait for vim-go install
 * YCM
 * Conque-Shell [Link](https://github.com/vim-scripts/Conque-Shell.git)
 * vim-javascript [Link](https://github.com/pangloss/vim-javascript.git)
+* Conque Shell [Link](http://www.vim.org/scripts/script.php?script_id=2771)
 
 ## Other
 * git
