@@ -24,6 +24,16 @@ set wak=no          " disable GUI alt menu
 set noswapfile
 set list listchars=tab:»·,trail:·
 
+" Tab shortcut
+nnoremap <C-j> :tabprevious<CR>
+nnoremap <C-k> :tabnext<CR>
+nnoremap <C-t> :tabnew<CR>
+inoremap <C-j> <Esc>:tabprevious<CR>i
+inoremap <C-k> <Esc>:tabnext<CR>i
+inoremap <C-t> <Esc>:tabnew<CR>
+
+
+
 " FileType Aliase
 au BufNewFile,BufRead *.tmpl set filetype=html
 
