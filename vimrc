@@ -9,6 +9,7 @@ set encoding=utf-8
 set tenc=utf8
 set fileencodings=utf-8,chinese,latin-1
 set fileencoding=utf-8
+set mouse=a
 
 " General Settings
 
@@ -22,6 +23,16 @@ set ts=4            " tabstop 4
 set wak=no          " disable GUI alt menu
 set noswapfile
 set list listchars=tab:»·,trail:·
+
+" Tab shortcut
+nnoremap <C-j> :tabprevious<CR>
+nnoremap <C-k> :tabnext<CR>
+nnoremap <C-t> :tabnew<CR>
+inoremap <C-j> <Esc>:tabprevious<CR>i
+inoremap <C-k> <Esc>:tabnext<CR>i
+inoremap <C-t> <Esc>:tabnew<CR>
+
+
 
 " FileType Aliase
 au BufNewFile,BufRead *.tmpl set filetype=html
