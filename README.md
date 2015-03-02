@@ -26,4 +26,5 @@ wait for vim-go install
 ## Other
 * git
 * tmux
+* openssh-allow use ssh log in container.
 
