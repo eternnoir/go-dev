@@ -15,6 +15,10 @@ RUN apt-get -y install \
 RUN apt-get clean
 ENV HOME /root
 WORKDIR /root
+# Install YCM
+RUN git clone --depth=1  https://github.com/Valloric/YouCompleteMe.git /root/.vim/bundle/YouCompleteMe
+RUN cd /root/.vim/bundle/YouCompleteMe; git submodule update --init --recursive; ./install.sh
+
 # Add config file
 ADD vimrc /root/.vimrc
 ADD tmux.conf /root/.tmux.conf
