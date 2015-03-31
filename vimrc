@@ -11,6 +11,11 @@ set fileencodings=utf-8,chinese,latin-1
 set fileencoding=utf-8
 set mouse=a
 
+" Theme Setting
+syntax enable
+set background=light
+colorscheme solarized
+
 " General Settings
 
 set nocompatible    " not compatible with the old-fashion vi mode
