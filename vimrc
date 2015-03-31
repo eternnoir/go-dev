@@ -400,7 +400,8 @@ let g:tagbar_type_go = {
     \ 'ctagsargs' : '-sort -silent'
     \ }
 
-
+"" Enable Mouse
+set mouse=a
 
 "" Include user's local vim config
 if filereadable(expand("~/.vimrc.local"))
