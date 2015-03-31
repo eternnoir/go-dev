@@ -68,7 +68,7 @@ let g:vim_bootstrap_langs = "go"
 let g:vim_bootstrap_editor = "vim"				" nvim or vim
 
 "" Custom bundles
-
+NeoBundle "Valloric/YouCompleteMe"
 "" Go Lang Bundle
 NeoBundle "majutsushi/tagbar"
 NeoBundle "fatih/vim-go"
